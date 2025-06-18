@@ -1,5 +1,5 @@
 - name: Novo usuario no AD
   microsoft.ad.ou:
-    name: ramon    
+    name: teste1    
     path: "{{ domain_path }}"
     state: present
