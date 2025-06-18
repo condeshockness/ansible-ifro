@@ -1,9 +1,2 @@
-- name: Ping site
-  shell: |
-    ping -c 1 google.com
-  register: ping_result
-
-
-- name: Ping result
-  debug:
-    msg: "{{ ping_result.stdout_lines }}"
+- name: Ping Windows
+  ansible.windows.win_ping:
