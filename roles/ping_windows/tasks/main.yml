@@ -1,6 +1,6 @@
 - name: Ping site
   shell: |
-    ping -c 1 -w 2 google.com
+    ping -c 1 google.com
   register: ping_result
 
 
