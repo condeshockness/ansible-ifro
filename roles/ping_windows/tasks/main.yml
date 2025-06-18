@@ -1,2 +1,5 @@
-- name: Ping Windows
-  ansible.windows.win_ping:
+- name: Novo usuario no AD
+  microsoft.ad.ou:
+    name: ramon    
+    path: "{{ domain_path }}"
+    state: present
