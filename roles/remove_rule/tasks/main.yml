@@ -1,0 +1,26 @@
+- name: Regra de portas 9090
+  pfsensible.core.pfsense_rule:
+    name: "Liberação da porta 9090"
+    action: pass
+    interface: "escola"
+    ipprotocol: inet
+    protocol: tcp
+    source: any
+    destination: any
+    destination_port: 9090
+    state: absent
+  tags: rules
+
+- name: Regra de portas 8080
+  pfsensible.core.pfsense_rule:
+    name: "Liberação da porta 8080"
+    action: pass
+    interface: "escola"
+    ipprotocol: inet
+    protocol: tcp
+    source: any
+    destination: any
+    destination_port: 8080
+    state: absent
+  tags: rules
+  
