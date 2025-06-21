@@ -19,13 +19,13 @@
 - name: Nova Unidade Organizacional Back-End
   microsoft.ad.ou:
     name: Back-End
-    path: OU=Desenvolvimento de Software,OU=Diretoria Executiva,OU=Back-End,DC=xpto,DC=local
+    path: OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Front-End
   microsoft.ad.ou:
     name: Front-End
-    path: OU=Desenvolvimento de Software,OU=Diretoria Executiva,OU=Back-End,DC=xpto,DC=local
+    path: OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local
     state: present
 #-------------------------------------------------------------------
 
