@@ -3,6 +3,6 @@
     name: ansible
     path: DC=xpto,DC=local
     #path: "{{ domain_path }}"
-    #protect_from_deletion: true
+    protect_from_deletion: false
     protected: false
     state: present
