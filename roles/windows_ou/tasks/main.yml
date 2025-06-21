@@ -40,13 +40,13 @@
   microsoft.ad.ou:
     name: Suporte Tecnico
   microsoft.ad.ou:
-    path: OU=Diretoria Executiva,OU=Infraestrutura de Redes,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Infraestrutura de Redes,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Redes e Servidores
   microsoft.ad.ou:
     name: Redes e Servidores
-    path: OU=Diretoria Executiva,OU=Infraestrutura de Redes,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Infraestrutura de Redes,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 
@@ -62,13 +62,13 @@
   microsoft.ad.ou:
     name: Admissoes e Pessoal
   microsoft.ad.ou:
-    path: OU=Diretoria Executiva,OU=Recursos Humanos,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Recursos Humanos,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.ou:
     name: Desenvolvimento Humano
-    path: OU=Diretoria Executiva,OU=Recursos Humanos,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Recursos Humanos,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 
@@ -83,13 +83,13 @@
   microsoft.ad.ou:
     name: Financeiro
   microsoft.ad.ou:
-    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Compras e Logistica
   microsoft.ad.ou:
     name: Compras e Logistica
-    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 
@@ -104,12 +104,12 @@
   microsoft.ad.ou:
     name: Projetos Estrategicos
   microsoft.ad.ou:
-    path: OU=Diretoria Executiva,OU=Pesquisa e Inovacao,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Pesquisa e Inovacao,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.ou:
     name: Parcerias e convenios
-    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,OU=Back-End,DC=xpto,DC=local
+    path: OU=Diretoria Executiva,OU=Administrativo-Financeiro,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
