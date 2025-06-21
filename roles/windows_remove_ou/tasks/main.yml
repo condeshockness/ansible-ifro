@@ -6,3 +6,12 @@
     #protect_from_deletion: false
     #protected: false
     state: absent
+
+- name: Remove Unidade Organizacional
+  microsoft.ad.ou:
+    name: ansible 2
+    #path: DC=xpto,DC=local
+    #path: "{{ domain_path }}"
+    #protect_from_deletion: false
+    #protected: false
+    state: absent
