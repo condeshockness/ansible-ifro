@@ -1,5 +1,7 @@
-- name: Novo usuario no AD
+- name: Nova Unidade Organizacional
   microsoft.ad.ou:
-    name: teste1    
-    path: "{{ domain_path }}"
+    name: ansible    
+    #path: "{{ domain_path }}"
+    #protect_from_deletion: true
+    protected: false
     state: present

@@ -3,4 +3,4 @@
   var:
     doman_path: "DC=xpto,DC=local"
   roles:
-  - ad_user_windows
+  - windows_ou
