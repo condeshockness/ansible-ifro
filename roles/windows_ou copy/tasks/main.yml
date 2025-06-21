@@ -1,0 +1,17 @@
+- name: Nova Unidade Organizacional 1
+  microsoft.ad.ou:
+    name: ansible
+    #path: DC=xpto,DC=local
+    #path: "{{ domain_path }}"
+    #protect_from_deletion: false
+    #protected: false
+    state: present
+
+- name: Nova Unidade Organizacional 2
+  microsoft.ad.ou:
+    name: ansible 2
+    #path: DC=xpto,DC=local
+    #path: "{{ domain_path }}"
+    #protect_from_deletion: false
+    #protected: false
+    state: present
