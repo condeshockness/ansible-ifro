@@ -1,4 +1,0 @@
-[site]
-#localhost ansible_connection=local
-#192.168.100.10
-10.7.1.202
