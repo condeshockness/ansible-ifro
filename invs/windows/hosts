@@ -7,6 +7,6 @@
 #ansible_winrm_transport: basic
 #ansible_winrm_server_cert_validation: ignore
 
-ansible_connection=winrm
+ansible_connection=ssh
 ansible_shell_type = powershell
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
