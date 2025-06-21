@@ -7,6 +7,9 @@
 #ansible_winrm_transport: basic
 #ansible_winrm_server_cert_validation: ignore
 
-ansible_connection=ssh
+#remote_tmp = C:\Users\ans_user\Tmp
+#become_method = runas
+ansible_connection = ssh
 ansible_shell_type = powershell
-ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+shell_type = powershell
+ansible_ssh_common_args = '-o StrictHostKeyChecking=no'
