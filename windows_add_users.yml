@@ -11,13 +11,3 @@
     caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
     caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
     senha_padrao: "Ifro123456"
-
-    back_End:
-    - maria
-    - joao
-    - fred
-
-    front_End:
-    - peach
-    - plum
-    - pear
