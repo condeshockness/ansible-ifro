@@ -1,10 +1,6 @@
 - name: Nova Unidade Organizacional Diretoria Executiva 
   microsoft.ad.ou:
     name: Diretoria Executiva
-    #path: DC=xpto,DC=local
-    #path: "{{ domain_path }}"
-    #protect_from_deletion: false
-    #protected: false
     state: absent
 
 
@@ -39,7 +35,6 @@
 - name: Nova Unidade Organizacional Suporte Tecnico
   microsoft.ad.ou:
     name: Suporte Tecnico
-  microsoft.ad.ou:
     path: OU=Infraestrutura de Redes,OU=Diretoria Executiva,DC=xpto,DC=local
     state: absent
 #---------------------------------------------------------
@@ -62,7 +57,6 @@
 - name: Nova Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.ou:
     name: Admissoes e Pessoal
-  microsoft.ad.ou:
     path: OU=Recursos Humanos,OU=Diretoria Executiva,DC=xpto,DC=local
     state: absent
 #---------------------------------------------------------
@@ -84,7 +78,6 @@
 - name: Nova Unidade Organizacional Financeiro
   microsoft.ad.ou:
     name: Financeiro
-  microsoft.ad.ou:
     path: OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local
     state: absent
 #---------------------------------------------------------
@@ -106,7 +99,6 @@
 - name: Nova Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.ou:
     name: Projetos Estrategicos
-  microsoft.ad.ou:
     path: OU=Pesquisa e Inovacao,OU=Diretoria Executiva,DC=xpto,DC=local
     state: absent
 #---------------------------------------------------------
