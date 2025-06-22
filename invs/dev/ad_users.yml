@@ -1,4 +1,12 @@
 back_end:
   - name: joao
+    firstname: Bob
+    surname: Smith
+
   - name: maria
+    firstname: Bob
+    surname: Smith
+    
   - name: fred
+    firstname: Bob
+    surname: Smith
