@@ -1,6 +1,6 @@
 - name: Adicionar novo usuario
   microsoft.ad.user:
-    identity: {{ item }}
+    identity: {{ back_End }}
     state: present
     password: {{ senha_padrao }}
     path: "OU=Desenvolvimento de Software,{{ caminho_dominio }}"
