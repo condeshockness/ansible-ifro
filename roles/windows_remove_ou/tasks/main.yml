@@ -63,7 +63,7 @@
 - name: Nova Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.ou:
     name: Desenvolvimento Humano
-    path: OU=Recursos HumanosOU=Diretoria Executiva,DC=xpto,DC=local
+    path: OU=Recursos Humanos,OU=Diretoria Executiva,DC=xpto,DC=local
     state: absent
 #---------------------------------------------------------
 
