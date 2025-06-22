@@ -5,11 +5,11 @@
 
   
   roles:
-  - windows_ou
+  - windows_add_users
 
   vars:
-    caminho_dominio: OU=Diretoria Executiva,DC=xpto,DC=local
-    senha_padrao: Ifro123456
+    caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
+    senha_padrao: "Ifro123456"
 
     back_End:
     - maria
