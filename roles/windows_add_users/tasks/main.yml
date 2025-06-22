@@ -1,8 +1,8 @@
 - name: Adicionar usuario ao AD
   microsoft.ad.user:
     identity: teste1
-    password: "{{ senha_padrao }}"
+    password: Ifro123456
     state: present
-    path: "{{ caminho_dominio_back_end }}"
+    path: OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local
   
   #loop: "{{ back_end }}"
