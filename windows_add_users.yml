@@ -7,7 +7,7 @@
   roles:
   - windows_ou
 
-  var:
+  vars:
     caminho_dominio: OU=Diretoria Executiva,DC=xpto,DC=local
     senha_padrao: Ifro123456
 
