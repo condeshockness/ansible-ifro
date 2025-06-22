@@ -57,6 +57,7 @@
     name: Recursos Humanos
     path: OU=Diretoria Executiva,DC=xpto,DC=local
     state: present
+
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.ou:
@@ -68,9 +69,10 @@
 - name: Nova Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.ou:
     name: Desenvolvimento Humano
-    path: OU=Diretoria Executiva,OU=Recursos Humanos,DC=xpto,DC=local
+    path: OU=Recursos HumanosOU=Diretoria Executiva,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
+
 
 #Unidade Administrativo-Financeiro
 - name: Nova Unidade Organizacional Administrativo-Financeiro
@@ -99,6 +101,7 @@
     name: Pesquisa e Inovacao
     path: OU=Diretoria Executiva,DC=xpto,DC=local
     state: present
+
 #---------------------------------------------------------
 - name: Nova Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.ou:
