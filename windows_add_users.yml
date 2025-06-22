@@ -4,7 +4,7 @@
   #  doman_path: "DC=xpto,DC=local"
 
   vars_files:
-    - /invs/dev/ad_users.yml
+    - vars.yml
 
   
   roles:

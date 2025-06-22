@@ -5,4 +5,5 @@
     state: present
     path: "{{ caminho_dominio_back_end }}"
   
-  loop: "{{ back_end }}"
+  #loop: "{{ back_end }}"
+  with_items: "{{ domainusers }}"
