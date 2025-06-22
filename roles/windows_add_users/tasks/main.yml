@@ -6,4 +6,3 @@
     path: "{{ caminho_dominio_back_end }}"
   
   loop: "{{ back_end }}"
-  no_log: true
