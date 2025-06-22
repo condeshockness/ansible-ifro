@@ -1,8 +1,8 @@
 - name: Adicionar usuario ao AD
   microsoft.ad.user:
-    identity: "{{ item.name }}"
+    identity: teste1
     password: "{{ senha_padrao }}"
     state: present
     path: "{{ caminho_dominio_back_end }}"
   
-  loop: "{{ back_End }}"
+  #loop: "{{ back_end }}"
