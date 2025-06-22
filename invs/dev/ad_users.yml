@@ -1,3 +1,8 @@
+vars:
+    caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
+    caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
+    senha_padrao: "Ifro123456"
+
 back_end:
   - name: joao
     firstname: Bob
@@ -6,7 +11,7 @@ back_end:
   - name: maria
     firstname: Bob
     surname: Smith
-    
+
   - name: fred
     firstname: Bob
     surname: Smith

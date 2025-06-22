@@ -3,11 +3,14 @@
   #var:
   #  doman_path: "DC=xpto,DC=local"
 
+  vars_files:
+    - /ad_users.yml
+
   
   roles:
   - windows_add_users
 
-  vars:
-    caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
-    caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
-    senha_padrao: "Ifro123456"
+  # vars:
+  #   caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
+  #   caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
+  #   senha_padrao: "Ifro123456"
