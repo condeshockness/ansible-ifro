@@ -11,12 +11,12 @@
     caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
     senha_padrao: "Ifro123456"
 
-    back_End:
-    - maria
-    - joao
-    - fred
+    # back_End:
+    # - maria
+    # - joao
+    # - fred
 
-    front_End:
-    - peach
-    - plum
-    - pear
+    # front_End:
+    # - peach
+    # - plum
+    # - pear
