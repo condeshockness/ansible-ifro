@@ -1,6 +1,8 @@
 - name: Adicionar usuario ao AD
   microsoft.ad.user:
     identity: teste1
+    firstname: Teste
+    surname: Ramon
     password: Ifro123456
     state: present
     path: OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local
