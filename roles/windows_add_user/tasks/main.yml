@@ -1,0 +1,8 @@
+- name: Adicionar novo usuario
+  microsoft.ad.user:
+    identity: {{ item }}
+    state: present
+    password: {{ senha_padrao }}
+    path: "OU=Desenvolvimento de Software,{{ caminho_dominio }}"
+
+    loop: "{{ back_End }}"
