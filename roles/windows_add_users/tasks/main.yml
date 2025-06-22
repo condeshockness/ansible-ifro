@@ -2,6 +2,6 @@
   microsoft.ad.user:
     identity: teste1
     password: "{{ senha_padrao }}"
-    path: "OU=Desenvolvimento de Software,{{ caminho_dominio }}"
+    path: "{{ caminho_dominio_back_end }}"
 
     state: present
