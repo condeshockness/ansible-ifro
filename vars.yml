@@ -1,8 +1,23 @@
 ---
-
 caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
 caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
 senha_padrao: "Ifro123456"
 
-domainusers:
+usuarios_ad_back_end:
   - {name: 'jdoe', firstname: 'John', surname: 'Doe'}
+
+usuarios_ad_front_end:
+  - {name: 'jdoe', firstname: 'John', surname: 'Doe'}
+
+
+
+
+
+
+
+#exemplos
+# domainusers:
+#   - {name: 'jdoe', firstname: 'John', surname: 'Doe', password: '{{ user_passwd }}', groups: "jdoe_primary,prod,dbadmins", attributes: {telephoneNumber: 123-555-555, uidNumber: 1001, gidNumber: 1001, unixHomeDirectory: "/home/jdoe", loginShell: "{{default_login_shell}}"}}
+#   - {name: 'hwurst', firstname: 'Hans', surname: 'Wurst', password: '{{ user_passwd }}', groups: "hwurst_primary,prod,webadmins", attributes: {telephoneNumber: 123-555-556, uidNumber: 1002, gidNumber: 1002, loginShell: "{{default_login_shell}}"}}
+#   - {name: 'jmiller', firstname: 'Jane', surname: 'Miller', password: '{{ user_passwd }}', groups: "jmiller_primary,test,dbadmins", attributes: {telephoneNumber: 123-555-557, uidNumber: 1003, gidNumber: 1003, loginShell: "{{default_login_shell}}"}}
+#   - {name: 'jbond', firstname: 'James', surname: 'Bond', password: '{{ user_passwd }}', groups: "jbond_primary,test,webadmins", attributes: {telephoneNumber: 123-555-558, uidNumber: 1004, gidNumber: 1004, loginShell: "{{default_login_shell}}"}}
