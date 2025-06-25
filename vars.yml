@@ -1,13 +1,110 @@
 ---
 caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
+
+#Desenvolvimento de Software
 caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
+
+#Infraestrutura de Redes
+caminho_dominio_suporte_tecnico: "OU=suporte_tecnico,OU=Infraestrutura de Redes,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_redes_servidores: "OU=redes_servidores,OU=Infraestrutura de Redes,OU=Diretoria Executiva,DC=xpto,DC=local"
+
+#Recursos Humanos
+caminho_dominio_admissoes_pessoal: "OU=admissoes_pessoal,OU=Recursos Humanos,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_desenvolvimento_humano: "OU=desenvolvimento_humano,OU=Recursos Humanos,OU=Diretoria Executiva,DC=xpto,DC=local"
+
+#Administrativo-Financeiro
+caminho_dominio_administrativo_financeiro: "OU=administrativo_financeiro,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_compras_logistica: "OU=compras_logistica,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
+
+#Unidade Pesquisa e Inovacao
+caminho_dominio_projetos_estrategicos: "OU=projetos_estrategicos,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_parcerias_convenios: "OU=parcerias_convenios,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
+
+
+
 senha_padrao: "Ifro123456"
 
 usuarios_ad_back_end:
-  - {name: 'jdoe', firstname: 'John', surname: 'Doe'}
+  - {name: 'marcos.oliveira', firstname: 'Marcos', surname: 'Oliveira'}
+  - {name: 'juliana.santos', firstname: 'Juliana', surname: 'Santos'}
+  - {name: 'fernando.souza', firstname: 'Fernando', surname: 'Souza'}
 
 usuarios_ad_front_end:
-  - {name: 'jdoe', firstname: 'John', surname: 'Doe'}
+  - {name: 'camila.costa', firstname: 'Camila', surname: 'Costa'}
+  - {name: 'lucas.silva', firstname: 'Lucas', surname: 'Silva'}
+  - {name: 'patricia.pereira', firstname: 'Patrícia', surname: 'Pereira'}
+
+usuarios_ad_suporte_tecnico:
+  - {name: 'rodrigo.almeida', firstname: 'Rodrigo', surname: 'Almeida'}
+  - {name: 'aline.ferreira', firstname: 'Aline', surname: 'Ferreira'}
+  - {name: 'gabriel.gomes', firstname: 'Gabriel', surname: 'Gomes'}
+
+usuarios_ad_redes_servidores:
+  - {name: 'bruna.carvalho', firstname: 'Bruna', surname: 'Carvalho'}
+  - {name: 'thiago.martins', firstname: 'Thiago', surname: 'Martins'}
+  - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues'}
+
+usuarios_ad_admissoes_pessoal:
+  - {name: 'bruna.carvalho', firstname: 'Bruna', surname: 'Carvalho'}
+  - {name: 'thiago.martins', firstname: 'Thiago', surname: 'Martins'}
+  - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues'}
+
+usuarios_ad_desenvolvimento_humano:
+  - {name: 'vinicius.barbosa', firstname: 'Vinícius', surname: 'Barbosa'}
+  - {name: 'renata.lima', firstname: 'Renata', surname: 'Lima'}
+  - {name: 'diego.araujo', firstname: 'Diego', surname: 'Araújo'}
+
+usuarios_ad_admissoes_pessoal:
+  - {name: 'larissa.melo', firstname: 'Larissa', surname: 'Melo'}
+  - {name: 'eduardo.ribeiro', firstname: 'Eduardo', surname: 'Ribeiro'}
+  - {name: 'adriana.nunes', firstname: 'Adriana', surname: 'Nunes'}
+
+usuarios_ad_administrativo_financeiro:
+  - {name: 'paulo.dias', firstname: 'Paulo', surname: 'Dias'}
+  - {name: 'vanessa.castro', firstname: 'Vanessa', surname: 'Castro'}
+  - {name: 'leonardo.moura', firstname: 'Leonardo', surname: 'Moura'}
+
+usuarios_ad_compras_logistica:
+  - {name: 'felipe.correia', firstname: 'Felipe', surname: 'Correia'}
+  - {name: 'leticia.teixeira', firstname: 'Letícia', surname: 'Teixeira'}
+  - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas'}
+
+usuarios_ad_projetos_estrategicos:
+  - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges'}
+  - {name: 'andre.soares', firstname: 'André', surname: 'Soares'}
+  - {name: 'claudia.machado', firstname: 'Cláudia', surname: 'Machado'}
+
+usuarios_ad_parcerias_convenios:
+  - {name: 'daniel.rocha', firstname: 'Daniel', surname: 'Rocha'}
+  - {name: 'cristiane.vieira', firstname: 'Cristiane', surname: 'Vieira'}
+  - {name: 'joao.pinto', firstname: 'João', surname: 'Pinto'}
+  - {name: 'maria.neves', firstname: 'Maria', surname: 'Neves'}
+
+
+
+
+
+
+
+  
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
@@ -21,3 +118,19 @@ usuarios_ad_front_end:
 #   - {name: 'hwurst', firstname: 'Hans', surname: 'Wurst', password: '{{ user_passwd }}', groups: "hwurst_primary,prod,webadmins", attributes: {telephoneNumber: 123-555-556, uidNumber: 1002, gidNumber: 1002, loginShell: "{{default_login_shell}}"}}
 #   - {name: 'jmiller', firstname: 'Jane', surname: 'Miller', password: '{{ user_passwd }}', groups: "jmiller_primary,test,dbadmins", attributes: {telephoneNumber: 123-555-557, uidNumber: 1003, gidNumber: 1003, loginShell: "{{default_login_shell}}"}}
 #   - {name: 'jbond', firstname: 'James', surname: 'Bond', password: '{{ user_passwd }}', groups: "jbond_primary,test,webadmins", attributes: {telephoneNumber: 123-555-558, uidNumber: 1004, gidNumber: 1004, loginShell: "{{default_login_shell}}"}}
+  # - {name: 'antonio.lopes', firstname: 'Antônio', surname: 'Lopes'}
+  # - {name: 'francisca.cunha', firstname: 'Francisca', surname: 'Cunha'}
+  # - {name: 'carlos.cardoso', firstname: 'Carlos', surname: 'Cardoso'}
+  # - {name: 'gabriela.ramos', firstname: 'Gabriela', surname: 'Ramos'}
+  # - {name: 'jose.pires', firstname: 'José', surname: 'Pires'}
+  # - {name: 'ana.siqueira', firstname: 'Ana', surname: 'Siqueira'}
+  # - {name: 'marcelo.bernardes', firstname: 'Marcelo', surname: 'Bernardes'}
+  # - {name: 'simone.leite', firstname: 'Simone', surname: 'Leite'}
+  # - {name: 'sergio.rezende', firstname: 'Sérgio', surname: 'Rezende'}
+  # - {name: 'debora.farias', firstname: 'Débora', surname: 'Farias'}
+  # - {name: 'ricardo.dantas', firstname: 'Ricardo', surname: 'Dantas'}
+  # - {name: 'tatiane.duarte', firstname: 'Tatiane', surname: 'Duarte'}
+  # - {name: 'fabio.nascimento', firstname: 'Fábio', surname: 'Nascimento'}
+  # - {name: 'veronica.bezerra', firstname: 'Verônica', surname: 'Bezerra'}
+  # - {name: 'emerson.moreira', firstname: 'Emerson', surname: 'Moreira'}
+  # - {name: 'regina.sampaio', firstname: 'Regina', surname: 'Sampaio'}

@@ -100,13 +100,13 @@
     state: present
 
 #---------------------------------------------------------
-- name: Nova Unidade Organizacional Admissoes e Pessoal
+- name: Nova Unidade Organizacional Projetos Estrategicos
   microsoft.ad.ou:
     name: Projetos Estrategicos
     path: OU=Pesquisa e Inovacao,OU=Diretoria Executiva,DC=xpto,DC=local
     state: present
 #---------------------------------------------------------
-- name: Nova Unidade Organizacional Desenvolvimento Humano
+- name: Nova Unidade Organizacional Parcerias e convenios
   microsoft.ad.ou:
     name: Parcerias e convenios
     path: OU=Pesquisa e Inovacao,OU=Diretoria Executiva,DC=xpto,DC=local
