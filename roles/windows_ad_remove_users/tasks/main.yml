@@ -1,5 +1,5 @@
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Back-End
+- name: Removendo usuario na Unidade Organizacional Back-End
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -13,7 +13,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Front-End
+- name: Removendo usuario na Unidade Organizacional Front-End
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -27,7 +27,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Suporte Tecnico
+- name: Removendo usuario na Unidade Organizacional Suporte Tecnico
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -41,7 +41,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Redes e Servidores
+- name: Removendo usuario na Unidade Organizacional Redes e Servidores
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -55,7 +55,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Admissoes e Pessoal
+- name: Removendo usuario na Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -69,7 +69,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Desenvolvimento Humano
+- name: Removendo usuario na Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -83,7 +83,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Administrativo-Financeiro
+- name: Removendo usuario na Unidade Organizacional Administrativo-Financeiro
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -97,7 +97,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Compras e Logistica
+- name: Removendo usuario na Unidade Organizacional Compras e Logistica
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -111,7 +111,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
+- name: Removendo usuario na Unidade Organizacional Projetos Estrategicos
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
@@ -125,7 +125,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
+- name: Removendo usuario na Unidade Organizacional Parcerias e convenios
   microsoft.ad.user:
     identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
