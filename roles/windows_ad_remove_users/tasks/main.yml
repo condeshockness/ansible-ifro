@@ -29,7 +29,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Suporte Tecnico
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -43,7 +43,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Redes e Servidores
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -57,7 +57,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Admissoes e Pessoal
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -71,7 +71,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Desenvolvimento Humano
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -85,7 +85,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Administrativo-Financeiro
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -99,7 +99,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Compras e Logistica
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -113,7 +113,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
@@ -127,7 +127,7 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
