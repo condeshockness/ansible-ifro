@@ -1,6 +1,4 @@
 - hosts: windows
   gather_facts: no
-  #var:
-  #  doman_path: "DC=xpto,DC=local"
   roles:
   - windows_ou
