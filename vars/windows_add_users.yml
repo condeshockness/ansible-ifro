@@ -58,7 +58,7 @@ usuarios_ad_admissoes_pessoal:
   - {name: 'eduardo.ribeiro', firstname: 'Eduardo', surname: 'Ribeiro'}
   - {name: 'adriana.nunes', firstname: 'Adriana', surname: 'Nunes'}
 
-usuarios_ad_administrativo_financeiro:
+usuarios_ad_financeiro:
   - {name: 'paulo.dias', firstname: 'Paulo', surname: 'Dias'}
   - {name: 'vanessa.castro', firstname: 'Vanessa', surname: 'Castro'}
   - {name: 'leonardo.moura', firstname: 'Leonardo', surname: 'Moura'}

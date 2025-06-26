@@ -19,7 +19,7 @@
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
-    path: "{{ caminho_dominio_back_end }}"
+    path: "{{ caminho_dominio_front_end }}"
     state: present
 
   #loop
@@ -89,7 +89,7 @@
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
-    path: "{{ caminho_dominio_administrativo_financeiro }}"
+    path: "{{ caminho_dominio_financeiro }}"
     state: present
 
   #loop
