@@ -53,11 +53,6 @@ usuarios_ad_desenvolvimento_humano:
   - {name: 'renata.lima', firstname: 'Renata', surname: 'Lima'}
   - {name: 'diego.araujo', firstname: 'Diego', surname: 'Araújo'}
 
-usuarios_ad_admissoes_pessoal:
-  - {name: 'larissa.melo', firstname: 'Larissa', surname: 'Melo'}
-  - {name: 'eduardo.ribeiro', firstname: 'Eduardo', surname: 'Ribeiro'}
-  - {name: 'adriana.nunes', firstname: 'Adriana', surname: 'Nunes'}
-
 usuarios_ad_financeiro:
   - {name: 'paulo.dias', firstname: 'Paulo', surname: 'Dias'}
   - {name: 'vanessa.castro', firstname: 'Vanessa', surname: 'Castro'}
