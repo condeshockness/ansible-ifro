@@ -18,8 +18,8 @@ caminho_dominio_financeiro: "OU=Financeiro,OU=Administrativo-Financeiro,OU=Diret
 caminho_dominio_compras_logistica: "OU=Compras e Logistica,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
 
 #Unidade Pesquisa e Inovacao
-caminho_dominio_projetos_estrategicos: "OU=Projetos Estrategicos,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
-caminho_dominio_parcerias_convenios: "OU=Parcerias e convenios,OU=Administrativo-Financeiro,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_projetos_estrategicos: "OU=Projetos Estrategicos,OU=Pesquisa e Inovacao,OU=Diretoria Executiva,DC=xpto,DC=local"
+caminho_dominio_parcerias_convenios: "OU=Parcerias e convenios,OU=Pesquisa e Inovacao,OU=Diretoria Executiva,DC=xpto,DC=local"
 
 senha_padrao: "Ifro123456"
 
