@@ -1,15 +1,14 @@
 - hosts: windows
   gather_facts: no
-  #var:
-  #  doman_path: "DC=xpto,DC=local"
 
   vars_files:
-    - vars.yml
-
+    - vars/windows_add_users.yml
   
   roles:
   - windows_add_users
 
+  
+  #Exemplos
   # vars:
   #   caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
   #   caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
