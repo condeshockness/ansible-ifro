@@ -125,7 +125,7 @@
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
+- name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
   microsoft.ad.user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"

@@ -1,12 +1,12 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Back-End
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_back_end }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_back_end }}"
@@ -15,12 +15,12 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Front-End
   microsoft.ad.user:
-    name: "{{ item.name }}"
+    identity: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_front_end }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_front_end }}"
@@ -34,7 +34,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_suporte_tecnico }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_suporte_tecnico }}"
@@ -48,7 +48,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_redes_servidores }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_redes_servidores }}"
@@ -62,7 +62,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_admissoes_pessoal }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_admissoes_pessoal }}"
@@ -76,7 +76,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_desenvolvimento_humano }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_desenvolvimento_humano }}"
@@ -90,7 +90,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_financeiro }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_financeiro }}"
@@ -104,7 +104,7 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_compras_logistica }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_compras_logistica }}"
@@ -118,21 +118,21 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_projetos_estrategicos }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_projetos_estrategicos }}"
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
-- name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
+- name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
   microsoft.ad.user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_parcerias_convenios }}"
-    state: present
+    state: absent
 
   #loop
   with_items: "{{ usuarios_ad_parcerias_convenios }}"
