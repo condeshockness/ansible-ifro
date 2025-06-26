@@ -44,9 +44,9 @@ usuarios_ad_redes_servidores:
   - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues'}
 
 usuarios_ad_admissoes_pessoal:
-  - {name: 'bruna.carvalho', firstname: 'Bruna', surname: 'Carvalho'}
-  - {name: 'thiago.martins', firstname: 'Thiago', surname: 'Martins'}
-  - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues'}
+  - {name: 'veronica.bezerra', firstname: 'Verônica', surname: 'Bezerra'}
+  - {name: 'emerson.moreira', firstname: 'Emerson', surname: 'Moreira'}
+  - {name: 'regina.sampaio', firstname: 'Regina', surname: 'Sampaio'}
 
 usuarios_ad_desenvolvimento_humano:
   - {name: 'vinicius.barbosa', firstname: 'Vinícius', surname: 'Barbosa'}
