@@ -93,7 +93,7 @@
     state: present
 
   #loop
-  with_items: "{{ usuarios_ad_administrativo_financeiro }}"
+  with_items: "{{ usuarios_ad_financeiro }}"
 #-------------------Fim-------------------------------------
 
 #-------------------Inicio--------------------------------------
