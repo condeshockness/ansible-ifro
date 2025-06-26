@@ -1,8 +1,10 @@
-# Filament Demo App
+# Playbooks Ansible
 
 A demo application to illustrate how Filament Admin works.
 
-![Filament Demo](https://github.com/filamentphp/demo/assets/171715/899161a9-3c85-4dc9-9599-13928d3a4412)
+https://github.com/condeshockness/ansible-ifro/tree/main/images
+
+![Filament Demo](https://github.com/condeshockness/ansible-ifro/images/semaphore_ansible_modelo.jpg)
 
 [Open in Gitpod](https://gitpod.io/#https://github.com/filamentphp/demo) to edit it and preview your changes with no setup required.
 
