@@ -2,10 +2,10 @@
   gather_facts: no
 
   vars_files:
-    - vars/windows_add_users.yml
+    - vars/vars_windows_ad_users.yml
   
   roles:
-  - windows_add_users
+  - windows_ad_remove_users
 
   
   #Exemplos
