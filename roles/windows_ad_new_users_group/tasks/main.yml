@@ -1,14 +1,12 @@
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Back-End
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_back_end }}"
-    groups:
-      set:
-        - "{{ item.groups }}"
+    groups: "{{ item.groups }}"
     state: present
 
   #loop
@@ -17,7 +15,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Front-End
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -32,7 +30,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Suporte Tecnico
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -47,7 +45,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Redes e Servidores
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -62,7 +60,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Admissoes e Pessoal
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -77,7 +75,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Desenvolvimento Humano
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -92,7 +90,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Administrativo-Financeiro
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -107,7 +105,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Compras e Logistica
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -122,7 +120,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
@@ -137,7 +135,7 @@
 
 #-------------------Inicio--------------------------------------
 - name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
-  microsoft.ad.user:
+  win_domain_user:
     name: "{{ item.name }}"
     firstname: "{{ item.firstname }}"
     surname: "{{ item.surname }}"
