@@ -5,11 +5,4 @@
     - vars/vars_windows_ad_groups.yml
   
   roles:
-  - windows_ad_new_users
-
-  
-  #Exemplos
-  # vars:
-  #   caminho_dominio: "OU=Diretoria Executiva,DC=xpto,DC=local"
-  #   caminho_dominio_back_end: "OU=Back-End,OU=Desenvolvimento de Software,OU=Diretoria Executiva,DC=xpto,DC=local"
-  #   senha_padrao: "Ifro123456"
+  - windows_ad_new_groups
