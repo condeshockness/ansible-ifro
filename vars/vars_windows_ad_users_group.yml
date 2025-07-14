@@ -23,6 +23,36 @@ caminho_dominio_parcerias_convenios: "OU=Parcerias e convenios,OU=Pesquisa e Ino
 
 senha_padrao: "Ifro123456"
 
+groups_ad_back_end:
+  - {name: 'back_end', scope: 'Global'}
+
+groups_ad_front_end:
+  - {name: 'front_end', scope: 'Global'}
+
+groups_ad_suporte_tecnico:
+  - {name: 'suporte_tecnico', scope: 'Global'}
+
+groups_ad_redes_servidores:
+ - {name: 'redes_servidores', scope: 'Global'}
+
+groups_ad_admissoes_pessoal:
+  - {name: 'admissoes_pessoal', scope: 'Global'}
+
+groups_ad_desenvolvimento_humano:
+  - {name: 'desenvolvimento_humano', scope: 'Global'}
+
+groups_ad_financeiro:
+  - {name: 'financeiro', scope: 'Global'}
+
+groups_ad_compras_logistica:
+  - {name: 'compras_logistica', scope: 'Global'}
+
+groups_ad_projetos_estrategicos:
+  - {name: 'projetos_estrategicos', scope: 'Global'}
+
+groups_ad_parcerias_convenios:
+  - {name: 'parcerias_convenios', scope: 'Global'}
+
 usuarios_ad_back_end:
   - {name: 'marcos.oliveira', firstname: 'Marcos', surname: 'Oliveira',groups: "back_end,xpto"}
   - {name: 'juliana.santos', firstname: 'Juliana', surname: 'Santos',groups: "back_end,xpto"}
