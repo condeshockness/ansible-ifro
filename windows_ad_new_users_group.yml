@@ -6,5 +6,5 @@
   
   roles:
   - windows_ou
-  - windows_ad_new__groups
+  - windows_ad_new_groups
   - windows_ad_new_users_group
