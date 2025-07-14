@@ -6,7 +6,9 @@
     surname: "{{ item.surname }}"
     password: "{{ senha_padrao }}"
     path: "{{ caminho_dominio_back_end }}"
-    groups: "{{ item.groups }}"
+    groups:
+      set:
+        - "{{ item.groups }}"
     state: present
 
   #loop
