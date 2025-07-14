@@ -1,10 +1,6 @@
 - name: Nova Unidade Organizacional Diretoria Executiva 
   microsoft.ad.ou:
     name: Diretoria Executiva
-    #path: DC=xpto,DC=local
-    #path: "{{ domain_path }}"
-    #protect_from_deletion: yes
-    #protected: false
     state: present
 
 

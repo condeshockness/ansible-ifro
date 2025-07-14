@@ -23,6 +23,9 @@ caminho_dominio_parcerias_convenios: "OU=Parcerias e convenios,OU=Pesquisa e Ino
 
 senha_padrao: "Ifro123456"
 
+groups_ad_xpto:
+  - {name: 'xpto', scope: 'Global'}
+
 groups_ad_back_end:
   - {name: 'back_end', scope: 'Global'}
 
@@ -48,61 +51,61 @@ groups_ad_compras_logistica:
   - {name: 'compras_logistica', scope: 'Global'}
 
 groups_ad_projetos_estrategicos:
-  - {name: 'projetos_estrategicos', scope: 'Global'}
+  - {name: 'projetos_estrategicos', scope: 'Global'}xpto"
 
 groups_ad_parcerias_convenios:
   - {name: 'parcerias_convenios', scope: 'Global'}
 
 usuarios_ad_back_end:
-  - {name: 'marcos.oliveira', firstname: 'Marcos', surname: 'Oliveira',groups: 'back_end,xpto'}
-  - {name: 'juliana.santos', firstname: 'Juliana', surname: 'Santos',groups: 'back_end,xpto'}
-  - {name: 'fernando.souza', firstname: 'Fernando', surname: 'Souza',groups: 'back_end,xpto'}
+  - {name: 'marcos.oliveira', firstname: 'Marcos', surname: 'Oliveira', groups: "back_end,xpto"}
+  - {name: 'juliana.santos', firstname: 'Juliana', surname: 'Santos', groups: "back_end,xpto"}
+  - {name: 'fernando.souza', firstname: 'Fernando', surname: 'Souza', groups: "back_end,xpto"}
 
 usuarios_ad_front_end:
-  - {name: 'camila.costa', firstname: 'Camila', surname: 'Costa',groups: 'front_end,xpto'}
-  - {name: 'lucas.silva', firstname: 'Lucas', surname: 'Silva',groups: 'front_end,xpto'}
-  - {name: 'patricia.pereira', firstname: 'Patrícia', surname: 'Pereira',groups: 'front_end,xpto'}
+  - {name: 'camila.costa', firstname: 'Camila', surname: 'Costa', groups: "front_end,xpto"}
+  - {name: 'lucas.silva', firstname: 'Lucas', surname: 'Silva', groups: "front_end,xpto"}
+  - {name: 'patricia.pereira', firstname: 'Patrícia', surname: 'Pereira', groups: "front_end,xpto"}
 
 usuarios_ad_suporte_tecnico:
-  - {name: 'rodrigo.almeida', firstname: 'Rodrigo', surname: 'Almeida',groups: 'suporte_tecnico,xpto'}
-  - {name: 'aline.ferreira', firstname: 'Aline', surname: 'Ferreira',groups: 'suporte_tecnico,xpto'}
-  - {name: 'gabriel.gomes', firstname: 'Gabriel', surname: 'Gomes',groups: 'suporte_tecnico,xpto'}
+  - {name: 'rodrigo.almeida', firstname: 'Rodrigo', surname: 'Almeida', groups: "suporte_tecnico,xpto"}
+  - {name: 'aline.ferreira', firstname: 'Aline', surname: 'Ferreira', groups: "suporte_tecnico,xpto"}
+  - {name: 'gabriel.gomes', firstname: 'Gabriel', surname: 'Gomes', groups: "suporte_tecnico,xpto"}
 
 usuarios_ad_redes_servidores:
-  - {name: 'bruna.carvalho', firstname: 'Bruna', surname: 'Carvalho',groups: 'redes_servidores,xpto'}
-  - {name: 'thiago.martins', firstname: 'Thiago', surname: 'Martins',groups: 'redes_servidores,xpto'}
-  - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues',groups: 'redes_servidores,xpto'}
+  - {name: 'bruna.carvalho', firstname: 'Bruna', surname: 'Carvalho', groups: "redes_servidores,xpto"}
+  - {name: 'thiago.martins', firstname: 'Thiago', surname: 'Martins', groups: "redes_servidores,xpto"}
+  - {name: 'sandra.rodrigues', firstname: 'Sandra', surname: 'Rodrigues', groups: "redes_servidores,xpto"}
 
 usuarios_ad_admissoes_pessoal:
-  - {name: 'veronica.bezerra', firstname: 'Verônica', surname: 'Bezerra',groups: 'admissoes_pessoal,xpto'}
-  - {name: 'emerson.moreira', firstname: 'Emerson', surname: 'Moreira',groups: 'admissoes_pessoal,xpto'}
-  - {name: 'regina.sampaio', firstname: 'Regina', surname: 'Sampaio',groups: 'admissoes_pessoal,xpto'}
+  - {name: 'veronica.bezerra', firstname: 'Verônica', surname: 'Bezerra', groups: "admissoes_pessoal,xpto"}
+  - {name: 'emerson.moreira', firstname: 'Emerson', surname: 'Moreira', groups: "admissoes_pessoal,xpto"}
+  - {name: 'regina.sampaio', firstname: 'Regina', surname: 'Sampaio', groups: "admissoes_pessoal,xpto"}
 
 usuarios_ad_desenvolvimento_humano:
-  - {name: 'vinicius.barbosa', firstname: 'Vinícius', surname: 'Barbosa',groups: 'desenvolvimento_humano,xpto'}
-  - {name: 'renata.lima', firstname: 'Renata', surname: 'Lima',groups: 'desenvolvimento_humano,xpto'}
-  - {name: 'diego.araujo', firstname: 'Diego', surname: 'Araújo',groups: 'desenvolvimento_humano,xpto'}
+  - {name: 'vinicius.barbosa', firstname: 'Vinícius', surname: 'Barbosa', groups: "desenvolvimento_humano,xpto"}
+  - {name: 'renata.lima', firstname: 'Renata', surname: 'Lima', groups: "desenvolvimento_humano,xpto"}
+  - {name: 'diego.araujo', firstname: 'Diego', surname: 'Araújo', groups: "desenvolvimento_humano,xpto"}
 
 usuarios_ad_financeiro:
-  - {name: 'paulo.dias', firstname: 'Paulo', surname: 'Dias',groups: 'financeiro,xpto'}
-  - {name: 'vanessa.castro', firstname: 'Vanessa', surname: 'Castro',groups: 'financeiro,xpto'}
-  - {name: 'leonardo.moura', firstname: 'Leonardo', surname: 'Moura',groups: 'financeiro,xpto'}
+  - {name: 'paulo.dias', firstname: 'Paulo', surname: 'Dias', groups: "financeiro,xpto"}
+  - {name: 'vanessa.castro', firstname: 'Vanessa', surname: 'Castro', groups: "financeiro,xpto"}
+  - {name: 'leonardo.moura', firstname: 'Leonardo', surname: 'Moura', groups: "financeiro,xpto"}
 
 usuarios_ad_compras_logistica:
-  - {name: 'felipe.correia', firstname: 'Felipe', surname: 'Correia',groups: 'logistica,xpto'}
-  - {name: 'leticia.teixeira', firstname: 'Letícia', surname: 'Teixeira',groups: 'logistica,xpto'}
-  - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas',groups: 'logistica,xpto'}
+  - {name: 'felipe.correia', firstname: 'Felipe', surname: 'Correia', groups: "logistica,xpto"}
+  - {name: 'leticia.teixeira', firstname: 'Letícia', surname: 'Teixeira', groups: "logistica,xpto"}
+  - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas', groups: "logistica,xpto"}
 
 usuarios_ad_projetos_estrategicos:
-  - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges',groups: 'estrategicos,xpto'}
-  - {name: 'andre.soares', firstname: 'André', surname: 'Soares',groups: 'estrategicos,xpto'}
-  - {name: 'claudia.machado', firstname: 'Cláudia', surname: 'Machado',groups: 'estrategicos,xpto'}
+  - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges', groups: "estrategicos,xpto"}
+  - {name: 'andre.soares', firstname: 'André', surname: 'Soares', groups: "estrategicos,xpto"}
+  - {name: 'claudia.machado', firstname: 'Cláudia', surname: 'Machado', groups: "estrategicos,xpto"}
 
 usuarios_ad_parcerias_convenios:
-  - {name: 'daniel.rocha', firstname: 'Daniel', surname: 'Rocha',groups: 'convenios,xpto'}
-  - {name: 'cristiane.vieira', firstname: 'Cristiane', surname: 'Vieira',groups: 'convenios,xpto'}
-  - {name: 'joao.pinto', firstname: 'João', surname: 'Pinto',groups: 'convenios,xpto'}
-  - {name: 'maria.neves', firstname: 'Maria', surname: 'Neves',groups: 'convenios,xpto'}
+  - {name: 'daniel.rocha', firstname: 'Daniel', surname: 'Rocha', groups: "convenios,xpto"}
+  - {name: 'cristiane.vieira', firstname: 'Cristiane', surname: 'Vieira', groups: "convenios,xpto"}
+  - {name: 'joao.pinto', firstname: 'João', surname: 'Pinto', groups: "convenios,xpto"}
+  - {name: 'maria.neves', firstname: 'Maria', surname: 'Neves', groups: "convenios,xpto"}
 
 
 
