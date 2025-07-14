@@ -2,7 +2,7 @@
   gather_facts: no
 
   vars_files:
-    - vars/vars_windows_ad_users.yml
+    - vars/vars_windows_ad_users_group.yml
   
   roles:
   - windows_ad_new_users_group
