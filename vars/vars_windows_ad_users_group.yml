@@ -51,7 +51,7 @@ groups_ad_compras_logistica:
   - {name: 'compras_logistica', scope: 'Global'}
 
 groups_ad_projetos_estrategicos:
-  - {name: 'projetos_estrategicos', scope: 'Global'}xpto"
+  - {name: 'projetos_estrategicos', scope: 'Global'}
 
 groups_ad_parcerias_convenios:
   - {name: 'parcerias_convenios', scope: 'Global'}
