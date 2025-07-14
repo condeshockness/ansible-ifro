@@ -1,0 +1,149 @@
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Back-End
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_back_end }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_back_end }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Front-End
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_front_end }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_front_end }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Suporte Tecnico
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_suporte_tecnico }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_suporte_tecnico }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Redes e Servidores
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_redes_servidores }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_redes_servidores }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Admissoes e Pessoal
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_admissoes_pessoal }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_admissoes_pessoal }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Desenvolvimento Humano
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_desenvolvimento_humano }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_desenvolvimento_humano }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Administrativo-Financeiro
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_financeiro }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_financeiro }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Compras e Logistica
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_compras_logistica }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_compras_logistica }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Projetos Estrategicos
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_projetos_estrategicos }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_projetos_estrategicos }}"
+#-------------------Fim-------------------------------------
+
+#-------------------Inicio--------------------------------------
+- name: Adcionando usuario na Unidade Organizacional Parcerias e convenios
+  microsoft.ad.user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.firstname }}"
+    surname: "{{ item.surname }}"
+    password: "{{ senha_padrao }}"
+    path: "{{ caminho_dominio_parcerias_convenios }}"
+    groups: "{{ item.groups }}"
+    state: present
+
+  #loop
+  with_items: "{{ usuarios_ad_parcerias_convenios }}"
+#-------------------Fim-------------------------------------

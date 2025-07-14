@@ -5,4 +5,4 @@
     - vars/vars_windows_ad_users.yml
   
   roles:
-  - windows_ad_remove_users
+  - windows_ad_new_users_group
