@@ -97,66 +97,12 @@ usuarios_ad_compras_logistica:
   - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas', groups: 'compras_logistica,xpto'}
 
 usuarios_ad_projetos_estrategicos:
-  - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges', groups: 'estrategicos,xpto'}
-  - {name: 'andre.soares', firstname: 'André', surname: 'Soares', groups: 'estrategicos,xpto'}
-  - {name: 'claudia.machado', firstname: 'Cláudia', surname: 'Machado', groups: 'estrategicos,xpto'}
+  - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges', groups: 'projetos_estrategicos,xpto'}
+  - {name: 'andre.soares', firstname: 'André', surname: 'Soares', groups: 'projetos_estrategicos,xpto'}
+  - {name: 'claudia.machado', firstname: 'Cláudia', surname: 'Machado', groups: 'projetos_estrategicos,xpto'}
 
 usuarios_ad_parcerias_convenios:
-  - {name: 'daniel.rocha', firstname: 'Daniel', surname: 'Rocha', groups: 'convenios,xpto'}
-  - {name: 'cristiane.vieira', firstname: 'Cristiane', surname: 'Vieira', groups: 'convenios,xpto'}
-  - {name: 'joao.pinto', firstname: 'João', surname: 'Pinto', groups: 'convenios,xpto'}
-  - {name: 'maria.neves', firstname: 'Maria', surname: 'Neves', groups: 'convenios,xpto'}
-
-
-
-
-
-
-
-  
-
-
- 
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-#exemplos
-# domainusers:
-#   - {name: 'jdoe', firstname: 'John', surname: 'Doe', password: '{{ user_passwd }}', groups: "jdoe_primary,prod,dbadmins", attributes: {telephoneNumber: 123-555-555, uidNumber: 1001, gidNumber: 1001, unixHomeDirectory: "/home/jdoe", loginShell: "{{default_login_shell}}"}}
-#   - {name: 'hwurst', firstname: 'Hans', surname: 'Wurst', password: '{{ user_passwd }}', groups: "hwurst_primary,prod,webadmins", attributes: {telephoneNumber: 123-555-556, uidNumber: 1002, gidNumber: 1002, loginShell: "{{default_login_shell}}"}}
-#   - {name: 'jmiller', firstname: 'Jane', surname: 'Miller', password: '{{ user_passwd }}', groups: "jmiller_primary,test,dbadmins", attributes: {telephoneNumber: 123-555-557, uidNumber: 1003, gidNumber: 1003, loginShell: "{{default_login_shell}}"}}
-#   - {name: 'jbond', firstname: 'James', surname: 'Bond', password: '{{ user_passwd }}', groups: "jbond_primary,test,webadmins", attributes: {telephoneNumber: 123-555-558, uidNumber: 1004, gidNumber: 1004, loginShell: "{{default_login_shell}}"}}
-  # - {name: 'antonio.lopes', firstname: 'Antônio', surname: 'Lopes'}
-  # - {name: 'francisca.cunha', firstname: 'Francisca', surname: 'Cunha'}
-  # - {name: 'carlos.cardoso', firstname: 'Carlos', surname: 'Cardoso'}
-  # - {name: 'gabriela.ramos', firstname: 'Gabriela', surname: 'Ramos'}
-  # - {name: 'jose.pires', firstname: 'José', surname: 'Pires'}
-  # - {name: 'ana.siqueira', firstname: 'Ana', surname: 'Siqueira'}
-  # - {name: 'marcelo.bernardes', firstname: 'Marcelo', surname: 'Bernardes'}
-  # - {name: 'simone.leite', firstname: 'Simone', surname: 'Leite'}
-  # - {name: 'sergio.rezende', firstname: 'Sérgio', surname: 'Rezende'}
-  # - {name: 'debora.farias', firstname: 'Débora', surname: 'Farias'}
-  # - {name: 'ricardo.dantas', firstname: 'Ricardo', surname: 'Dantas'}
-  # - {name: 'tatiane.duarte', firstname: 'Tatiane', surname: 'Duarte'}
-  # - {name: 'fabio.nascimento', firstname: 'Fábio', surname: 'Nascimento'}
-  # - {name: 'veronica.bezerra', firstname: 'Verônica', surname: 'Bezerra'}
-  # - {name: 'emerson.moreira', firstname: 'Emerson', surname: 'Moreira'}
-  # - {name: 'regina.sampaio', firstname: 'Regina', surname: 'Sampaio'}
+  - {name: 'daniel.rocha', firstname: 'Daniel', surname: 'Rocha', groups: 'parcerias_convenios,xpto'}
+  - {name: 'cristiane.vieira', firstname: 'Cristiane', surname: 'Vieira', groups: 'parcerias_convenios,xpto'}
+  - {name: 'joao.pinto', firstname: 'João', surname: 'Pinto', groups: 'parcerias_convenios,xpto'}
+  - {name: 'maria.neves', firstname: 'Maria', surname: 'Neves', groups: 'parcerias_convenios,xpto'}
