@@ -92,9 +92,9 @@ usuarios_ad_financeiro:
   - {name: 'leonardo.moura', firstname: 'Leonardo', surname: 'Moura', groups: 'financeiro,xpto'}
 
 usuarios_ad_compras_logistica:
-  - {name: 'felipe.correia', firstname: 'Felipe', surname: 'Correia', groups: 'logistica,xpto'}
-  - {name: 'leticia.teixeira', firstname: 'Letícia', surname: 'Teixeira', groups: 'logistica,xpto'}
-  - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas', groups: 'logistica,xpto'}
+  - {name: 'felipe.correia', firstname: 'Felipe', surname: 'Correia', groups: 'compras_logistica,xpto'}
+  - {name: 'leticia.teixeira', firstname: 'Letícia', surname: 'Teixeira', groups: 'compras_logistica,xpto'}
+  - {name: 'gustavo.freitas', firstname: 'Gustavo', surname: 'Freitas', groups: 'compras_logistica,xpto'}
 
 usuarios_ad_projetos_estrategicos:
   - {name: 'carolina.borges', firstname: 'Carolina', surname: 'Borges', groups: 'estrategicos,xpto'}
