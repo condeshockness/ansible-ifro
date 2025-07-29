@@ -16,7 +16,7 @@ Este projeto contém informações relacionadas ao sistema Windows Server 2025. 
 ## PDF
 - Os arquivos de PDF estão públicos para download
 
-### Algoritmos e Estruturas de Dados
+### Arquivos
 
 | TOPICO | AUTOR |  STATUS | IDIOMA |
 | - | - | - | - |
